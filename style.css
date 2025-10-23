@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Seção Hero */
+.hero {
+    background: url('IMAGENS/banner.png') no-repeat center center/cover;
+    padding: 100px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    color: #1ab6ff;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #1ab6ff;
+    border-radius: 6px;
+    color: #1ab6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1ab6ff;
+    color: #000;
+}
+
+/* Seção Módulos */
+.modules {
+    padding: 60px 20px;
+}
+
+.modules h2 {
+    color: #1ab6ff;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.modules p {
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.module-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.module {
+    background: linear-gradient(180deg, #222, #111);
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #1ab6ff;
+    text-decoration: none;
+    color: #1ab6ff;
+    transition: 0.3s;
+}
+
+.module:hover {
+    background-color: #1ab6ff;
+    color: #000;
+}
+
+/* Seção Transforme */
+.transform {
+    background: url('IMAGENS/woman-code.png') no-repeat center center/cover;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: left;
+}
+
+.transform h2 {
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10%;
+}
+
+/* Seção Carreiras */
+.careers {
+    padding: 80px 20px;
+}
+
+.careers h2 {
+    color: #1ab6ff;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.profile {
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 20px;
+    width: 220px;
+    border: 1px solid #1ab6ff;
+}
+
+.profile span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(to bottom, #000, #001a26);
+    padding: 40px 20px;
+}
+
+footer p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-logo span {
+    color: #1ab6ff;
+    font-weight: bold;
+}
+
+a {
+    color: #1ab6ff;
+}
