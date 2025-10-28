@@ -1,4 +1,4 @@
-# 🎨 Trilha CSS da DIO – Desafio 01  
+# 🎨 Trilha CSS da DIO - Desafio 01  
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="Licença MIT"/>
