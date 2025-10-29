@@ -21,7 +21,7 @@ A estrutura foi planejada com foco em **semântica, organização e boas prátic
 
 ## 🧠 Ferramentas utilizadas  
 
-| Etapa | Ferramenta | Função |
+| Etapa | Ferramenta | Finalidade |
 |-------|-------------|--------|
 | Edição de código | Visual Studio Code | Edição e organização do código |
 | Estrutura e estilo | HTML & CSS | Criação da base e estilização da página |
