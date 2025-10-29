@@ -30,9 +30,4 @@ A estrutura foi planejada com foco em **semântica, organização e boas prátic
 
 ---
 
-## 📄 Licença  
-Este projeto está sob a licença [MIT](./LICENSE).  
-
----
-
 👨🏾‍💻 Desenvolvido por **Thiago Pereira**
